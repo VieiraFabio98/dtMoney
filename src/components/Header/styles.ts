@@ -1,10 +1,10 @@
-import style from 'styled-components'
+import styled from 'styled-components'
 
-const Container = style.header`
+const Container = styled.header`
   background: var(--blue);
 `
 
-const Content = style.div`
+const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
 

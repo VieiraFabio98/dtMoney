@@ -1,6 +1,6 @@
-import style from "styled-components"
+import styled from "styled-components"
 
-const Container = style.div`
+const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
