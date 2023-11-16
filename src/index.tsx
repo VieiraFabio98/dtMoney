@@ -4,14 +4,13 @@ import { App } from './App';
 import { Model, createServer } from 'miragejs';
 
 createServer({
-
   models: {
     transaction: Model,
   },
 
   seeds(server){
     server.db.loadData({
-      transacations: [
+      transactions: [
         {
           id: 1,
           title: 'Freelance de website',
